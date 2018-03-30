@@ -85,6 +85,10 @@ cstdlib
 -
 iostream
 -
+iterator
+-
 LUDoolittle.hpp
 /home/mike/Documentos/analisis/Tareas/tarea 4/code/src/LUDoolittle.hpp
+Matrix.hpp
+/home/mike/Documentos/analisis/Tareas/tarea 4/code/src/Matrix.hpp
 
