@@ -1,4 +1,4 @@
-/home/mike/Descargas/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/mike/Documentos/analisis/Tareas/tarea 4/code"
+/home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/estape11/CLionProjects/Tarea04-Analisis
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working CXX compiler: /usr/bin/c++
 -- Check for working CXX compiler: /usr/bin/c++ -- works
@@ -6,22 +6,96 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Boost version: 1.58.0
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  src/CMakeLists.txt:8 (find_package)
+
+
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  src/CMakeLists.txt:8 (find_package)
+
+
+-- Boost version: 1.66.0
 -- Found the following Boost libraries:
 --   system
 --   filesystem
 -- Found OpenMP_CXX: -fopenmp (found version "4.0") 
--- Boost version: 1.58.0
+-- Found OpenMP: TRUE (found version "4.0")  
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:1 (find_package)
+
+
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:1 (find_package)
+
+
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:1 (find_package)
+
+
+-- Boost version: 1.66.0
 -- Found the following Boost libraries:
 --   system
 --   filesystem
 --   unit_test_framework
 -- Found OpenMP_CXX: -fopenmp  
--- Boost version: 1.58.0
+-- Found OpenMP: TRUE   
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  benchmarks/CMakeLists.txt:1 (find_package)
+
+
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  benchmarks/CMakeLists.txt:1 (find_package)
+
+
+CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  benchmarks/CMakeLists.txt:1 (find_package)
+
+
+-- Boost version: 1.66.0
 -- Found the following Boost libraries:
 --   system
 --   filesystem
 --   unit_test_framework
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mike/Documentos/analisis/Tareas/tarea 4/code/cmake-build-debug
+-- Build files have been written to: /home/estape11/CLionProjects/Tarea04-Analisis/cmake-build-debug

@@ -18,15 +18,25 @@
 int main() {
 
 
-    // Some example code
     anpi::Matrix<float> A = { {-1,-2,1,2},
                               { 2, 0,1,2},
                               {-1,-1,0,1},
                               { 1, 1,1,1} };
+    anpi::Matrix<float> B = { {-1,-2,1,2},
+                              { 2, 0,1,2},
+                              {-1,-1,0,1}};
     anpi::Matrix<float> LU;
-
+    anpi::Matrix<float> l=A*B;
+    for(int unsigned i=0;i<l.rows();i++){
+        for(unsigned int j=0;j<l.cols();j++){
+            std::cout<<l[i][j]<<", ";
+        }
+        std::cout<<std::endl;
+    }
     std::vector<size_t> p;
-    anpi::luDoolittle(A,LU,p);
+    //anpi::luDoolittle(A,LU,p);
+
+    return EXIT_FAILURE;
 
     return 0;
 }
