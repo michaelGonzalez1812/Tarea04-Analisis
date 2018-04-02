@@ -17,19 +17,16 @@
     <list default="true" id="00bfc305-defc-4a27-9263-67380b9b8e8a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
@@ -42,15 +39,26 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libanpi.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/libanpi.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/tarea03" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/tarea03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tarea03.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tarea03.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/tester.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/tester.dir/DependInfo.cmake" afterDir="false" />
@@ -60,6 +68,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CTestTestfile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Matrix.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Matrix.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Matrix.tpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
@@ -74,11 +83,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="421">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#207#225#0" expanded="true" />
               </folding>
@@ -89,8 +98,8 @@
       <file leaf-file-name="Matrix.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Matrix.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="137">
+              <caret line="356" column="37" selection-start-line="356" selection-start-column="37" selection-end-line="356" selection-end-column="37" />
               <folding>
                 <element signature="e#272#290#0" expanded="true" />
                 <element signature="e#1343#1399#0" expanded="true" />
@@ -103,48 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matrix.tpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Matrix.tpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="434" column="43" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
-              <folding>
-                <element signature="e#439#463#0" expanded="true" />
-                <element signature="e#599#623#0" expanded="true" />
-                <element signature="e#2460#2484#0" expanded="true" />
-                <element signature="e#2905#2929#0" expanded="true" />
-                <element signature="e#3179#3203#0" expanded="true" />
-                <element signature="e#3510#3534#0" expanded="true" />
-                <element signature="e#4154#4178#0" expanded="true" />
-                <element signature="e#4355#4379#0" expanded="true" />
-                <element signature="e#4613#4637#0" expanded="true" />
-                <element signature="e#12254#12278#0" expanded="true" />
-                <element signature="e#13415#13439#0" expanded="true" />
-                <element signature="e#13830#13854#0" expanded="true" />
-                <element signature="e#14046#14070#0" expanded="true" />
-                <element signature="e#14296#14308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exception" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/5/exception">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LUDoolittle.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="63" column="10" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="51" />
-              <folding>
-                <element signature="e#208#224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-13">
+              <caret line="444" column="37" selection-start-line="444" selection-start-column="37" selection-end-line="444" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -165,9 +137,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/include/LUDoolittle.hpp" />
+        <option value="$PROJECT_DIR$/include/Matrix.tpp" />
         <option value="$PROJECT_DIR$/include/Matrix.hpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/include/Matrix.tpp" />
       </list>
     </option>
   </component>
@@ -178,11 +150,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1365" />
-    <option name="y" value="-4" />
-    <option name="width" value="1922" />
-    <option name="height" value="1085" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,39 +161,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tarea03" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarea04-Analisis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tarea03" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarea04-Analisis" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarea03" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="bits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarea03" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,33 +225,35 @@
       <workItem from="1522377220589" duration="1266000" />
       <workItem from="1522427000066" duration="10223000" />
       <workItem from="1522637962060" duration="3149000" />
+      <workItem from="1522686623926" duration="2042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20687000" />
+    <option name="totallyTimeSpent" value="22729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="971" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16974169" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16937914" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32738718" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32948583" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32608697" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837528" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +263,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#207#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Matrix.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#272#290#0" expanded="true" />
+            <element signature="e#1343#1399#0" expanded="true" />
+            <element signature="e#10271#10295#0" expanded="true" />
+            <element signature="e#10614#10638#0" expanded="true" />
+            <element signature="e#10765#10789#0" expanded="true" />
+            <element signature="e#11060#11072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="51" />
+          <folding>
+            <element signature="e#208#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="434" column="43" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -339,22 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7704">
           <caret line="428" column="55" selection-start-line="428" selection-start-column="55" selection-end-line="428" selection-end-column="55" />
-          <folding>
-            <element signature="e#439#463#0" expanded="true" />
-            <element signature="e#599#623#0" expanded="true" />
-            <element signature="e#2460#2484#0" expanded="true" />
-            <element signature="e#2905#2929#0" expanded="true" />
-            <element signature="e#3179#3203#0" expanded="true" />
-            <element signature="e#3510#3534#0" expanded="true" />
-            <element signature="e#4154#4178#0" expanded="true" />
-            <element signature="e#4355#4379#0" expanded="true" />
-            <element signature="e#4613#4637#0" expanded="true" />
-            <element signature="e#12254#12278#0" expanded="true" />
-            <element signature="e#13415#13439#0" expanded="true" />
-            <element signature="e#13830#13854#0" expanded="true" />
-            <element signature="e#14046#14070#0" expanded="true" />
-            <element signature="e#14296#14308#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,22 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7488">
           <caret line="416" column="28" selection-start-line="416" selection-start-column="28" selection-end-line="416" selection-end-column="28" />
-          <folding>
-            <element signature="e#439#463#0" expanded="true" />
-            <element signature="e#599#623#0" expanded="true" />
-            <element signature="e#2460#2484#0" expanded="true" />
-            <element signature="e#2905#2929#0" expanded="true" />
-            <element signature="e#3179#3203#0" expanded="true" />
-            <element signature="e#3510#3534#0" expanded="true" />
-            <element signature="e#4154#4178#0" expanded="true" />
-            <element signature="e#4355#4379#0" expanded="true" />
-            <element signature="e#4613#4637#0" expanded="true" />
-            <element signature="e#12254#12278#0" expanded="true" />
-            <element signature="e#13415#13439#0" expanded="true" />
-            <element signature="e#13830#13854#0" expanded="true" />
-            <element signature="e#14046#14070#0" expanded="true" />
-            <element signature="e#14296#14308#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,22 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7488">
           <caret line="416" column="28" selection-start-line="416" selection-start-column="28" selection-end-line="416" selection-end-column="28" />
-          <folding>
-            <element signature="e#439#463#0" expanded="true" />
-            <element signature="e#599#623#0" expanded="true" />
-            <element signature="e#2460#2484#0" expanded="true" />
-            <element signature="e#2905#2929#0" expanded="true" />
-            <element signature="e#3179#3203#0" expanded="true" />
-            <element signature="e#3510#3534#0" expanded="true" />
-            <element signature="e#4154#4178#0" expanded="true" />
-            <element signature="e#4355#4379#0" expanded="true" />
-            <element signature="e#4613#4637#0" expanded="true" />
-            <element signature="e#12254#12278#0" expanded="true" />
-            <element signature="e#13415#13439#0" expanded="true" />
-            <element signature="e#13830#13854#0" expanded="true" />
-            <element signature="e#14046#14070#0" expanded="true" />
-            <element signature="e#14296#14308#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,13 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1970">
-          <caret line="215" column="22" selection-start-line="215" selection-start-column="22" selection-end-line="215" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h" />
     <entry file="file://$PROJECT_DIR$/include/Allocator.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-227">
@@ -506,22 +457,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/assert.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/assert.h" />
     <entry file="file://$PROJECT_DIR$/include/bits/MatrixArithmetic.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="337" column="41" lean-forward="true" selection-start-line="337" selection-start-column="41" selection-end-line="337" selection-end-column="41" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/PlotPy.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Exception.hpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,17 +472,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/exception">
+    <entry file="file:///usr/include/c++/5/exception" />
+    <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        <state relative-caret-position="945">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="51" />
+          <folding>
+            <element signature="e#208#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="199" column="27" selection-start-line="199" selection-start-column="27" selection-end-line="199" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Matrix.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="137">
+          <caret line="356" column="37" selection-start-line="356" selection-start-column="37" selection-end-line="356" selection-end-column="37" />
           <folding>
             <element signature="e#272#290#0" expanded="true" />
             <element signature="e#1343#1399#0" expanded="true" />
@@ -552,45 +505,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
+    <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="63" column="10" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="51" />
-          <folding>
-            <element signature="e#208#224#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-13">
+          <caret line="444" column="37" selection-start-line="444" selection-start-column="37" selection-end-line="444" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="421">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="e#207#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="434" column="43" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
-          <folding>
-            <element signature="e#439#463#0" expanded="true" />
-            <element signature="e#599#623#0" expanded="true" />
-            <element signature="e#2460#2484#0" expanded="true" />
-            <element signature="e#2905#2929#0" expanded="true" />
-            <element signature="e#3179#3203#0" expanded="true" />
-            <element signature="e#3510#3534#0" expanded="true" />
-            <element signature="e#4154#4178#0" expanded="true" />
-            <element signature="e#4355#4379#0" expanded="true" />
-            <element signature="e#4613#4637#0" expanded="true" />
-            <element signature="e#12254#12278#0" expanded="true" />
-            <element signature="e#13415#13439#0" expanded="true" />
-            <element signature="e#13830#13854#0" expanded="true" />
-            <element signature="e#14046#14070#0" expanded="true" />
-            <element signature="e#14296#14308#0" expanded="true" />
           </folding>
         </state>
       </provider>

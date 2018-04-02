@@ -1,26 +1,19 @@
-/home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/estape11/CLionProjects/Tarea04-Analisis
--- The CXX compiler identification is GNU 5.4.0
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/estape11/CLionProjects/Tarea04-Analisis
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   src/CMakeLists.txt:8 (find_package)
 
 
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   src/CMakeLists.txt:8 (find_package)
 
 
@@ -28,32 +21,32 @@ Call Stack (most recent call first):
 -- Found the following Boost libraries:
 --   system
 --   filesystem
--- Found OpenMP_CXX: -fopenmp (found version "4.0") 
--- Found OpenMP: TRUE (found version "4.0")  
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_CXX_FOUND) 
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   test/CMakeLists.txt:1 (find_package)
 
 
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   test/CMakeLists.txt:1 (find_package)
 
 
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   test/CMakeLists.txt:1 (find_package)
 
 
@@ -62,32 +55,32 @@ Call Stack (most recent call first):
 --   system
 --   filesystem
 --   unit_test_framework
--- Found OpenMP_CXX: -fopenmp  
--- Found OpenMP: TRUE   
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_CXX_FOUND) 
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   benchmarks/CMakeLists.txt:1 (find_package)
 
 
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   benchmarks/CMakeLists.txt:1 (find_package)
 
 
-CMake Warning at /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
-  /home/estape11/Escritorio/Programas/clion-2017.3.4/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
   benchmarks/CMakeLists.txt:1 (find_package)
 
 
@@ -96,6 +89,8 @@ Call Stack (most recent call first):
 --   system
 --   filesystem
 --   unit_test_framework
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_CXX_FOUND) 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/estape11/CLionProjects/Tarea04-Analisis/cmake-build-debug
+-- Build files have been written to: /Users/estape11/CLionProjects/Tarea04-Analisis/cmake-build-debug

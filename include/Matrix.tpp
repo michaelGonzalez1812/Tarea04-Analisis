@@ -442,10 +442,19 @@ namespace anpi {
 
 
     template<typename T, class Alloc>
-    Matrix<T, Alloc> operator*(const Matrix<T, Alloc> &a,
+    std::vector<T, std::allocator<T>> operator*(const Matrix<T, Alloc> &a,
                                const std::vector<T, std::allocator<T>> &b) {
-
-        throw anpi::Exception("To be implemented yet");
+        if(a.cols()==b.size()){
+            std::vector<T, std::allocator<T>> resultado=std::vector<T, std::allocator<T>>(b.size());
+            for(unsigned int i=0;i<a.rows();i++){
+                T temp=T(0);
+                for(unsigned int j=0;j<b.size();j++){
+                    temp+=(a[i][j]*b[j]);
+                }
+                resultado[i]=temp;
+            }
+            return resultado;
+        }else throw anpi::Exception("Las dimensiones no permiten realizar el producto matricial");
     }
 
 } // namespace ANPI
