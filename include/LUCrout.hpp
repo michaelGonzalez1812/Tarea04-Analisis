@@ -31,6 +31,40 @@ namespace anpi {
   void unpackCrout(const Matrix<T>& LU,
                    Matrix<T>& L,
                    Matrix<T>& U) {
+      int n = LU.row();
+      int j,i,k;
+      // Creando matriz Lower
+      for (i=0; i<n; i++) {
+          for (j = 0; j < n; j++) {
+              if (j < i) {
+                  L[j][i] = 0;
+              } else if (i == 0) {
+                  L[j][i] = LU[j][i];
+              } else {
+                  for (k = 0; k < j; k++) {
+                      L[j][i] = L[j][i] - L[j][k] * U[k][i];
+                  }
+              }
+          }
+          // Creando matriz Upper
+          for (j = 0; j < n; j++) {
+              if (j == i) {
+                  U[j][i] = 1;
+              } else if (j > i) {
+                  U[j][i] = 0;
+              } else if (j==0) {
+                  U[j][i] = LU[j][i] / L[j][j];
+              } else{
+                  for (k = 0; k < j; k++) {
+                      U[j][i] = U[j][i] - ((L[j][k] * U[k][i]) / L[j][j]);
+                  }
+              }
+
+          }
+      }
+
+      std::cout << L << endln;
+      std::cout << U << endln;
 
     throw anpi::Exception("To be implemented yet");
 

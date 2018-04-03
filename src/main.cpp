@@ -14,15 +14,19 @@
 #include <vector>
 #include "LUDoolittle.hpp"
 #include "Matrix.hpp"
+#include "LUCrout.hpp"
 
 //using namespace anpi;
 int main() {
 
 
-    anpi::Matrix<float> A = { {-1,-2,1,2},
+   /* anpi::Matrix<float> A = { {-1,-2,1,2},
                               { 2, 0,1,2},
                               {-1,-1,0,1},
-                              { 1, 1,1,1} };
+                              { 1, 1,1,1} };*/
+    anpi::Matrix<float> A = { {1,4,-2},
+                              {3,-2,5},
+                              {2,3,1}};
     anpi::Matrix<float> B = { {-1,-2,1,2},
                               { 2, 0,1,2},
                               {-1,-1,0,1}};
@@ -34,6 +38,8 @@ int main() {
         }
         std::cout<<std::endl;
     }
+    anpi::Matrix<float> L, U;
+    anpi::unpackCrout(A,L,U);
 
     std::vector<float> t={1,2,3,4};
 
