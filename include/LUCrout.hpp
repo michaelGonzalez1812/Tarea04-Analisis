@@ -31,7 +31,7 @@ namespace anpi {
   void unpackCrout(const Matrix<T>& LU,
                    Matrix<T>& L,
                    Matrix<T>& U) {
-      int n = LU.row();
+      int n = LU.rows();
       int j,i,k;
       // Creando matriz Lower
       for (i=0; i<n; i++) {
@@ -63,8 +63,8 @@ namespace anpi {
           }
       }
 
-      std::cout << L << endln;
-      std::cout << U << endln;
+      std::cout << L << std::endl;
+      std::cout << U << std::endl;
 
     throw anpi::Exception("To be implemented yet");
 
