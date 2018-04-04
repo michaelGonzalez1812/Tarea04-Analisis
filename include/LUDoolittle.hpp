@@ -38,8 +38,7 @@ namespace anpi {
     }
 
     /**
-     * Decompose the matrix A into a lower triangular matrix L and an
-     * upper triangular matrix U.  The matrices L and U are packed into
+     *-o
      * a single matrix LU.
      *
      * The L matrix will have in the Doolittle's LU decomposition a
@@ -47,7 +46,8 @@ namespace anpi {
      *
      * @param[in] A a square matrix
      * @param[out] LU matrix encoding the L and U matrices
-     * @param[out] permut permutation vector, holding the indices of the
+     * @param[out] permut permutation vector, holding the indices
+     * of the
      *             original matrix falling into the corresponding element.
      *             For example if permut[5]==3 holds, then the fifth row
      *             of the LU decomposition in fact is dealing with the third
@@ -60,8 +60,25 @@ namespace anpi {
     void luDoolittle(const Matrix<T> &A,
                      Matrix<T> &LU,
                      std::vector<size_t> &permut) {
-        for (unsigned int i=0;i<A.rows();i++){
-            
+        LU = A;
+        T cte = T(0);
+        for (unsigned int k = 0; k < A.rows() - 1; k++) {
+            for (unsigned int i = k + 1; i < A.rows(); i++) {
+                for (unsigned int j = k; j < A.rows(); j++) {
+                    if (LU[k][k] != 0) {
+                        if (j == k) {
+                            cte = LU[i][k] / LU[k][k];
+                            LU[i][j] = cte;
+                        } else {
+                            LU[i][j] = LU[i][j] - cte * LU[k][j];
+                        }
+
+                    }
+
+                }
+
+            }
+
         }
     }
 
