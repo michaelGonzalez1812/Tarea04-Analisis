@@ -424,37 +424,37 @@ namespace anpi {
     template<typename T, class Alloc>
     Matrix<T, Alloc> operator*(const Matrix<T, Alloc> &a,
                                const Matrix<T, Alloc> &b) {
-        if (a.cols() == b.rows()) {
-            Matrix<T, Alloc> resultado = Matrix<T, Alloc>(a.rows(), b.cols());
-            for (unsigned int i = 0; i < a.rows(); i++) {
-                for (unsigned int j = 0; j < b.cols(); j++) {
-                    T temp = 0;
-                    for (unsigned int k = 0; k < a.cols(); k++) {
-                        temp += (a[i][k] * b[k][j]);
-                    }
-                    resultado[i][j] = temp;
-                };
-            }
-            return resultado;
+        assert(a.cols() == b.rows() && "Las dimensiones no permiten realizar el producto matricial");
 
-        } else throw anpi::Exception("Las dimensiones no permiten realizar el producto matricial");
+        Matrix<T, Alloc> resultado = Matrix<T, Alloc>(a.rows(), b.cols());
+        for (unsigned int i = 0; i < a.rows(); i++) {
+            for (unsigned int j = 0; j < b.cols(); j++) {
+                T temp = 0;
+                for (unsigned int k = 0; k < a.cols(); k++) {
+                    temp += (a[i][k] * b[k][j]);
+                }
+                resultado[i][j] = temp;
+            };
+        }
+        return resultado;
+
     }
 
 
     template<typename T, class Alloc>
     std::vector<T, std::allocator<T>> operator*(const Matrix<T, Alloc> &a,
-                               const std::vector<T, std::allocator<T>> &b) {
-        if(a.cols()==b.size()){
-            std::vector<T, std::allocator<T>> resultado=std::vector<T, std::allocator<T>>(b.size());
-            for(unsigned int i=0;i<a.rows();i++){
-                T temp=T(0);
-                for(unsigned int j=0;j<b.size();j++){
-                    temp+=(a[i][j]*b[j]);
-                }
-                resultado[i]=temp;
+                                                const std::vector<T, std::allocator<T>> &b) {
+        assert(a.cols() == b.size() && "Las dimensiones no permiten realizar el producto matricial");
+        std::vector<T, std::allocator<T>> resultado = std::vector<T, std::allocator<T>>(b.size());
+        for (unsigned int i = 0; i < a.rows(); i++) {
+            T temp = T(0);
+            for (unsigned int j = 0; j < b.size(); j++) {
+                temp += (a[i][j] * b[j]);
             }
-            return resultado;
-        }else throw anpi::Exception("Las dimensiones no permiten realizar el producto matricial");
+            resultado[i] = temp;
+        }
+        return resultado;
+
     }
 
 } // namespace ANPI
@@ -463,12 +463,12 @@ namespace anpi {
 template<typename T>
 T operator*(const std::vector<T, std::allocator<T>> &a,
             const std::vector<T, std::allocator<T>> &b) {
-    if (a.size() == b.size()) {
-        T resultado = 0;
+    assert(a.size() == b.size() && "Dimensiones de vectores incompatibles");
 
-        for (unsigned int i = 0; i < a.size(); ++i)
-            resultado += a[i] * b[i];
+    T resultado = 0;
 
-        return resultado;
-    } else throw anpi::Exception("Dimensiones de vectores incompatibles");
+    for (unsigned int i = 0; i < a.size(); ++i)
+        resultado += a[i] * b[i];
+
+    return resultado;
 }
