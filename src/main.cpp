@@ -11,6 +11,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <vector>
+#include <LUCrout.hpp>
 #include "LUDoolittle.hpp"
 
 /**
@@ -30,6 +31,16 @@ void printMatriz(anpi::Matrix<T> &A) {
     }
 }
 
+template<typename T>
+void printVector(std::vector<T> &A) {
+    std::cout << "{ ";
+    for (int unsigned i = 0; i < A.size(); i++) {
+        if (i == A.size() - 1) std::cout << A[i];
+        else std::cout << A[i] << ", ";
+    }
+    std::cout << " }" << std::endl;
+}
+
 int main() {
 
     // Some example code
@@ -37,6 +48,9 @@ int main() {
                              {2,  0,  1, 2},
                              {-1, -1, 0, 1},
                              {1,  1,  1, 1}};
+    std::cout << "------------TEST LU------------" << std::endl;
+    std::cout << "-Matriz A original-" << std::endl;
+    printMatriz(A);
     anpi::Matrix<float> LU;
     std::vector<size_t> p;
     std::cout << "- LU Dolittle de A -" << std::endl;
@@ -51,6 +65,32 @@ int main() {
     printMatriz(U);
     std::cout << "- Comprobacion de A=L*U -" << std::endl;
     LUA = L * U;
+    printMatriz(LUA);
+    std::cout << "-----------------------------" << std::endl;
+    std::cout << "- LU Crout de A -" << std::endl;
+    anpi::luCrout(A, LU, p);
+    printMatriz(LU);
+    std::cout << "- Unpack Crout de LU -" << std::endl;
+    anpi::unpackCrout(LU, L, U);
+    std::cout << "L->" << std::endl;
+    printMatriz(L);
+    std::cout << "U->" << std::endl;
+    printMatriz(U);
+    std::cout << "- Comprobacion de A=L*U -" << std::endl;
+    LUA = L * U;
+    printMatriz(LUA);
+    std::cout << "-------TEST Producto Matricial--------" << std::endl;
+    std::cout << "-Matriz A -" << std::endl;
+    printMatriz(A);
+    std::cout << "Vector O -" << std::endl;
+    std::vector<float> O = {1, 2, 3, 4};
+    printVector(O);
+    std::cout << "-A*O -" << std::endl;
+    std::vector<float> R = A * O;
+    printVector(R);
+    std::cout << "-----------------------------" << std::endl;
+    std::cout << "A*A" << std::endl;
+    LUA=A*A;
     printMatriz(LUA);
     return EXIT_FAILURE;
 }

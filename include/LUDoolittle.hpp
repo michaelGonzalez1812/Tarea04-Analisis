@@ -33,18 +33,18 @@ namespace anpi {
     void unpackDoolittle(const Matrix<T> &LU,
                          Matrix<T> &L,
                          Matrix<T> &U) {
-        if(LU.cols()==LU.rows()) {
+        if (LU.cols() == LU.rows()) {
             L = LU;
             U = LU;
             for (unsigned int i = 0; i < LU.rows(); i++) {
                 for (unsigned int j = 0; j < LU.cols(); j++) {
-                    if (i == j) {
+                    if (i == j) { // estamos en la diagonal
                         L[i][j] = 1;
                         U[i][j] = LU[i][j];
-                    } else if (i < j) {
+                    } else if (i < j) { // matriz triangular superior
                         L[i][j] = 0;
                         U[i][j] = LU[i][j];
-                    } else {
+                    } else { // matriz triangular inferior
                         L[i][j] = LU[i][j];
                         U[i][j] = 0;
                     }
@@ -76,18 +76,18 @@ namespace anpi {
     void luDoolittle(const Matrix<T> &A,
                      Matrix<T> &LU,
                      std::vector<size_t> &permut) {
-        if(A.rows()==A.cols()) {
+        if (A.rows() == A.cols()) {
             LU = A;
             T cte = T(0);
-            for (unsigned int k = 0; k < A.rows() - 1; k++) {
+            for (unsigned int k = 0; k < A.rows() - 1; k++) { // iteracion para crear la matriz triangular superior
                 for (unsigned int i = k + 1; i < A.rows(); i++) {
                     for (unsigned int j = k; j < A.rows(); j++) {
-                        if (LU[k][k] != 0) {
+                        if (LU[k][k] != 0) { // evitar division entre cero
                             if (j == k) {
-                                cte = LU[i][k] / LU[k][k];
-                                LU[i][j] = cte; //calculo el L
+                                cte = LU[i][k] / LU[k][k]; // cte para generar ceros en la matriz
+                                LU[i][j] = cte; // creacion de L
                             } else {
-                                LU[i][j] = LU[i][j] - cte * LU[k][j]; //calculo U
+                                LU[i][j] = LU[i][j] - cte * LU[k][j]; // creacion de U
                             }
 
                         }

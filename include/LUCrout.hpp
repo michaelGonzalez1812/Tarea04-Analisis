@@ -36,13 +36,13 @@ namespace anpi {
             U = LU;
             for (unsigned int i = 0; i < LU.rows(); i++) {
                 for (unsigned int j = 0; j < LU.rows(); j++) {
-                    if (i == j) {
+                    if (i == j) { // diagonal
                         U[i][j] = T(1);
                         L[i][j] = LU[i][j];
-                    } else if (i > j) {
+                    } else if (i > j) { // matriz triangular inferior
                         U[i][j] = T(0);
                         L[i][j] = LU[i][j];
-                    } else {
+                    } else { // matriz triangular superior
                         L[i][j] = T(0);
                         U[i][j] = LU[i][j];
                     }
@@ -79,11 +79,11 @@ namespace anpi {
             LU = A;
             for (unsigned int i = 0; i < A.rows(); i++) {
                 for (unsigned int j = 0; j < A.rows(); j++) {
-                    LU[j][i] = A[i][j];
+                    LU[j][i] = A[i][j]; // filas por columnas
                 }
             }
 
-            T cte = T(0);
+            T cte = T(0); // constante para generar ceros de la triagular superior
             for (unsigned int k = 0; k < A.rows() - 1; k++) {
                 for (unsigned int i = k + 1; i < A.rows(); i++) {
                     for (unsigned int j = k; j < A.rows(); j++) {
