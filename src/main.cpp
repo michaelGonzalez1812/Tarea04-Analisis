@@ -40,7 +40,7 @@ int main() {
                               {13, 14, 15, 16}};
     anpi::Matrix<float> LU;
     std::vector<size_t> p;
-    anpi::luDoolittle(AA, LU, p);
+    anpi::luDoolittle(B, LU, p);
 
     anpi::Matrix<float> l = LU;
     for (int unsigned i = 0; i < l.rows(); i++) {
@@ -49,8 +49,23 @@ int main() {
         }
         std::cout << std::endl;
     }
+    std::cout <<"---------------"<< std::endl;
     anpi::Matrix<float> L, U;
-    anpi::unpackCrout(A, L, U);
+    anpi::unpackDoolittle(l, L, U);
+    for (int unsigned i = 0; i < L.rows(); i++) {
+        for (unsigned int j = 0; j < L.cols(); j++) {
+            std::cout << L[i][j] << ", ";
+        }
+        std::cout << std::endl;
+    }
+    std::cout <<"---------------"<< std::endl;
+    for (int unsigned i = 0; i < U.rows(); i++) {
+        for (unsigned int j = 0; j < U.cols(); j++) {
+            std::cout << U[i][j] << ", ";
+        }
+        std::cout << std::endl;
+    }
+
 
     std::vector<float> t = {1, 2, 3, 4};
 

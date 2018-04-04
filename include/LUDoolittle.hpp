@@ -33,8 +33,24 @@ namespace anpi {
     void unpackDoolittle(const Matrix<T> &LU,
                          Matrix<T> &L,
                          Matrix<T> &U) {
-
-        throw anpi::Exception("To be implemented yet");
+        if(LU.cols()==LU.rows()) {
+            L = LU;
+            U = LU;
+            for (unsigned int i = 0; i < LU.rows(); i++) {
+                for (unsigned int j = 0; j < LU.cols(); j++) {
+                    if (i == j) {
+                        L[i][j] = 1;
+                        U[i][j] = LU[i][j];
+                    } else if (i < j) {
+                        L[i][j] = 0;
+                        U[i][j] = LU[i][j];
+                    } else {
+                        L[i][j] = LU[i][j];
+                        U[i][j] = 0;
+                    }
+                }
+            }
+        } else throw anpi::Exception("La matriz no es cuadrada");
     }
 
     /**
@@ -60,17 +76,20 @@ namespace anpi {
     void luDoolittle(const Matrix<T> &A,
                      Matrix<T> &LU,
                      std::vector<size_t> &permut) {
-        LU = A;
-        T cte = T(0);
-        for (unsigned int k = 0; k < A.rows() - 1; k++) {
-            for (unsigned int i = k + 1; i < A.rows(); i++) {
-                for (unsigned int j = k; j < A.rows(); j++) {
-                    if (LU[k][k] != 0) {
-                        if (j == k) {
-                            cte = LU[i][k] / LU[k][k];
-                            LU[i][j] = cte;
-                        } else {
-                            LU[i][j] = LU[i][j] - cte * LU[k][j];
+        if(A.rows()==A.cols()) {
+            LU = A;
+            T cte = T(0);
+            for (unsigned int k = 0; k < A.rows() - 1; k++) {
+                for (unsigned int i = k + 1; i < A.rows(); i++) {
+                    for (unsigned int j = k; j < A.rows(); j++) {
+                        if (LU[k][k] != 0) {
+                            if (j == k) {
+                                cte = LU[i][k] / LU[k][k];
+                                LU[i][j] = cte; //calculo el L
+                            } else {
+                                LU[i][j] = LU[i][j] - cte * LU[k][j]; //calculo U
+                            }
+
                         }
 
                     }
@@ -78,8 +97,7 @@ namespace anpi {
                 }
 
             }
-
-        }
+        } else throw anpi::Exception("La matriz no es cuadrada");
     }
 
 }

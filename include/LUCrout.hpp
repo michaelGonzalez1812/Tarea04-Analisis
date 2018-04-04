@@ -31,56 +31,24 @@ namespace anpi {
     void unpackCrout(const Matrix <T> &LU,
                      Matrix <T> &L,
                      Matrix <T> &U) {
-        std::cout << "CULO" << std::endl;
-        int n = LU.rows();
-        int j, i, k;
-        // Creando matriz Lower
-        for (i = 0; i < n; i++) {
-            for (j = 0; j < n; j++) {
-                if (j < i) {
-                    L[j][i] = 0;
-                } else if (i == 0) {
-                    L[j][i] = LU[j][i];
-                } else {
-                    for (k = 0; k < j; k++) {
-                        L[j][i] = L[j][i] - L[j][k] * U[k][i];
+        if (LU.rows() == LU.cols()) {
+            L = LU;
+            U = LU;
+            for (unsigned int i = 0; i < LU.rows(); i++) {
+                for (unsigned int j = 0; j < LU.rows(); j++) {
+                    if (i == j) {
+                        U[i][j] = T(1);
+                        L[i][j] = LU[i][j];
+                    } else if (i > j) {
+                        U[i][j] = T(0);
+                        L[i][j] = LU[i][j];
+                    } else {
+                        L[i][j] = T(0);
+                        U[i][j] = LU[i][j];
                     }
                 }
             }
-            // Creando matriz Upper
-            for (j = 0; j < n; j++) {
-                if (j == i) {
-                    U[j][i] = 1;
-                } else if (j > i) {
-                    U[j][i] = 0;
-                } else if (j == 0) {
-                    U[j][i] = LU[j][i] / L[j][j];
-                } else {
-                    for (k = 0; k < j; k++) {
-                        U[j][i] = U[j][i] - ((L[j][k] * U[k][i]) / L[j][j]);
-                    }
-                }
-
-            }
-        }
-        std::cout << "L" << std::endl;
-        for (int unsigned i = 0; i < L.rows(); i++) {
-            for (unsigned int j = 0; j < L.cols(); j++) {
-                std::cout << L[i][j] << ", ";
-            }
-            std::cout << std::endl;
-        }
-
-        std::cout << "U" << std::endl;
-        for (int unsigned i = 0; i < U.rows(); i++) {
-            for (unsigned int j = 0; j < U.cols(); j++) {
-                std::cout << U[i][j] << ", ";
-            }
-            std::cout << std::endl;
-        }
-
-        throw anpi::Exception("To be implemented yet");
-
+        } else throw anpi::Exception("La matriz no es cuadrada");
     }
 
     /**
@@ -106,8 +74,42 @@ namespace anpi {
     void luCrout(const Matrix <T> &A,
                  Matrix <T> &LU,
                  std::vector<size_t> &permut) {
+        //transpuesta
+        if (A.rows() == A.cols()) {
+            LU = A;
+            for (unsigned int i = 0; i < A.rows(); i++) {
+                for (unsigned int j = 0; j < A.rows(); j++) {
+                    LU[j][i] = A[i][j];
+                }
+            }
 
-        throw anpi::Exception("To be implemented yet");
+            T cte = T(0);
+            for (unsigned int k = 0; k < A.rows() - 1; k++) {
+                for (unsigned int i = k + 1; i < A.rows(); i++) {
+                    for (unsigned int j = k; j < A.rows(); j++) {
+                        if (LU[k][k] != 0) {
+                            if (j == k) {
+                                cte = LU[i][k] / LU[k][k];
+                                LU[i][j] = cte; //calculo el L
+                            } else {
+                                LU[i][j] = LU[i][j] - cte * LU[k][j]; //calculo U
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            Matrix<T> LUtemp = LU;
+            for (unsigned int i = 0; i < A.rows(); i++) {
+                for (unsigned int j = 0; j < A.rows(); j++) {
+                    LU[j][i] = LUtemp[i][j];
+                }
+            }
+        } else throw anpi::Exception("La matriz no es cuadrada");
     }
 
 }
