@@ -60,7 +60,9 @@ namespace anpi {
     void luDoolittle(const Matrix<T> &A,
                      Matrix<T> &LU,
                      std::vector<size_t> &permut) {
-        //ddddd
+        for (unsigned int i=0;i<A.rows();i++){
+            
+        }
     }
 
 }

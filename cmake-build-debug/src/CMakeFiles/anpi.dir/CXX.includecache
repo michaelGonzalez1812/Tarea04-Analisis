@@ -36,6 +36,18 @@ altivec.h
 spe.h
 -
 
+../include/LUCrout.hpp
+cmath
+-
+limits
+-
+functional
+-
+Exception.hpp
+../include/Exception.hpp
+Matrix.hpp
+../include/Matrix.hpp
+
 ../include/LUDoolittle.hpp
 cmath
 -
@@ -93,6 +105,8 @@ LUDoolittle.hpp
 /Users/estape11/CLionProjects/Tarea04-Analisis/src/LUDoolittle.hpp
 Matrix.hpp
 /Users/estape11/CLionProjects/Tarea04-Analisis/src/Matrix.hpp
+LUCrout.hpp
+/Users/estape11/CLionProjects/Tarea04-Analisis/src/LUCrout.hpp
 
 /usr/local/include/boost/align/align.hpp
 boost/config.hpp
