@@ -97,16 +97,12 @@ cstdlib
 -
 iostream
 -
-iterator
--
 vector
+-
+LUCrout.hpp
 -
 LUDoolittle.hpp
 /Users/estape11/CLionProjects/Tarea04-Analisis/src/LUDoolittle.hpp
-Matrix.hpp
-/Users/estape11/CLionProjects/Tarea04-Analisis/src/Matrix.hpp
-LUCrout.hpp
-/Users/estape11/CLionProjects/Tarea04-Analisis/src/LUCrout.hpp
 
 /usr/local/include/boost/align/align.hpp
 boost/config.hpp
