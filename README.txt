@@ -1,19 +1,16 @@
-Create a directory build:
 
-> mkdir build;
+Instituto Tecnoloógico de Costa Rica
+Ingeniería en Computadores
+Análisis Numérico para Ingeniería (ANPI)
+EMD
+2018
 
-Go into that directory
+#Instrucciones de compiliación
 
-> cd build;
-
-You can choose to build a release version with:
-
-> cmake ../ -DCMAKE_BUILD_TYPE=Release
-
-or a debug version with
-
+> mkdir build
+> cd build
 > cmake ../ -DCMAKE_BUILD_TYPE=Debug
-
-And build everything with
-
 > make
+
+#Nota
+En el src -> Test de los algoritmos implementados
