@@ -31,14 +31,19 @@ void printMatriz(anpi::Matrix<T> &A) {
     }
 }
 
+/**
+ * Herramienta para visualizar vectores
+ * @tparam T
+ * @param A
+ */
 template<typename T>
 void printVector(std::vector<T> &A) {
-    std::cout << "{ ";
+    std::cout << "{";
     for (int unsigned i = 0; i < A.size(); i++) {
         if (i == A.size() - 1) std::cout << A[i];
-        else std::cout << A[i] << ", ";
+        else std::cout << A[i] << ", "<<std::endl;
     }
-    std::cout << " }" << std::endl;
+    std::cout << "}" << std::endl;
 }
 
 int main() {

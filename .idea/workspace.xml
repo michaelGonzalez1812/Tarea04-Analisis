@@ -16,18 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00bfc305-defc-4a27-9263-67380b9b8e8a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/benchmarkMain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/benchmarkMain.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/benchmarkMatrixAdd.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/benchmarks/CMakeFiles/benchmark.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/anpi.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/tarea03.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libanpi.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/libanpi.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/tarea03" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/tarea03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Matrix.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Matrix.tpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/testMatrix.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,14 +29,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="645">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="e#207#225#0" expanded="true" />
                 <element signature="e#339#351#0" expanded="true" />
+                <element signature="e#750#762#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,34 +52,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testMain.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testMain.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="testMatrix.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testMatrix.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2141">
-              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Matrix.tpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1303">
+            <state relative-caret-position="581">
               <caret line="471" selection-start-line="471" selection-end-line="471" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exception.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Exception.hpp">
+      <file leaf-file-name="LUCrout.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/LUCrout.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+            <state relative-caret-position="195">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LUDoolittle.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#208#224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +98,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/include/Matrix.hpp" />
-        <option value="$PROJECT_DIR$/include/LUCrout.hpp" />
-        <option value="$PROJECT_DIR$/include/LUDoolittle.hpp" />
         <option value="$PROJECT_DIR$/include/Matrix.tpp" />
         <option value="$PROJECT_DIR$/test/testMatrix.cpp" />
+        <option value="$PROJECT_DIR$/include/LUDoolittle.hpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/include/LUCrout.hpp" />
       </list>
     </option>
   </component>
@@ -211,7 +199,7 @@
       <workItem from="1522427000066" duration="10223000" />
       <workItem from="1522637962060" duration="3149000" />
       <workItem from="1522686623926" duration="2042000" />
-      <workItem from="1522796632813" duration="28754000" />
+      <workItem from="1522796632813" duration="31853000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1522798087001</created>
@@ -241,11 +229,25 @@
       <option name="project" value="LOCAL" />
       <updated>1522837073744</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Atualizacion">
+      <created>1522881244007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522881244007</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Actualizacion">
+      <created>1522883636038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522883636038</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51483000" />
+    <option name="totallyTimeSpent" value="54582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1680" height="971" extended-state="6" />
@@ -254,12 +256,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16937914" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32608697" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32837528" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32837528" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837528" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32951945" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32951945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,7 +283,9 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Dolittle listo" />
     <MESSAGE value="Dolittle y Crout listo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dolittle y Crout listo" />
+    <MESSAGE value="Atualizacion" />
+    <MESSAGE value="Actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
@@ -291,6 +295,7 @@
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -324,6 +329,7 @@
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -367,6 +373,7 @@
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -410,6 +417,7 @@
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,6 +460,7 @@
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,20 +555,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/LUCrout.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/testMain.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
+    <entry file="file://$PROJECT_DIR$/test/testMatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-          <folding>
-            <element signature="e#208#224#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2141">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -570,15 +572,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
+    <entry file="file://$PROJECT_DIR$/include/LUDoolittle.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="471" selection-start-line="471" selection-end-line="471" />
+        <state relative-caret-position="346">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#208#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testMain.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/include/Matrix.tpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="471" selection-start-line="471" selection-end-line="471" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testLU.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -587,21 +596,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testMatrix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2141">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="645">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="e#207#225#0" expanded="true" />
             <element signature="e#339#351#0" expanded="true" />
+            <element signature="e#750#762#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/LUCrout.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
